@@ -8,14 +8,15 @@ export default function Tabs() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'Students':
-        return <p>List of assigned students will appear here.</p>;
-      case 'Schedule':
-        return <p>Teacher weekly schedule goes here.</p>;
-      case 'Availability':
-      default:
-        return <p>Teacher availability details will be shown here.</p>;
-    }
+  case 'Students':
+    return <p>List of assigned students will appear here.</p>;
+  case 'Schedule':
+    return <p>Teacher&apos;s weekly schedule goes here.</p>;
+  case 'Availability':
+  default:
+    return <p>Teacher&apos;s availability details will be shown here.</p>;
+}
+
   };
 
   return (
