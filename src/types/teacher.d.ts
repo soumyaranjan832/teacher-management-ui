@@ -1,3 +1,4 @@
+// src/types/teacher.d.ts
 export interface TeacherInfo {
   name: string;
   role: string;
