@@ -11,10 +11,10 @@ export default function Tabs() {
       case 'Students':
         return <p>List of assigned students will appear here.</p>;
       case 'Schedule':
-        return <p>Teacher's weekly schedule goes here.</p>;
+        return <p>Teacher&apos;s weekly schedule goes here.</p>;
       case 'Availability':
       default:
-        return <p>Teacher's availability details will be shown here.</p>;
+        return <p>Teacher&apos;s availability details will be shown here.</p>;
     }
   };
 
